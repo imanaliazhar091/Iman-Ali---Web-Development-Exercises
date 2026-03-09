@@ -1,0 +1,71 @@
+body{
+margin:0;
+font-family: serif;
+background:#dcdcdc;
+}
+
+/* header section */
+
+header{
+text-align:center;
+padding:20px;
+}
+
+header h1{
+font-size:60px;
+margin:0;
+}
+
+nav{
+margin-top:10px;
+}
+
+nav a{
+margin:0 20px;
+font-size:20px;
+}
+
+/* intro section */
+
+.intro{
+display:flex;
+gap:40px;
+padding:30px;
+}
+
+.text{
+flex:2;
+font-size:18px;
+line-height:1.6;
+}
+
+.side-image{
+flex:1;
+}
+
+.side-image img{
+width:100%;
+box-shadow:0 0 10px rgba(0,0,0,0.3);
+}
+
+/* gallery */
+
+.gallery{
+display:flex;
+flex-wrap:wrap;
+}
+
+.gallery img,
+.gallery video{
+height:250px;
+width:100%;
+flex-grow:1;
+}
+
+.gallery video{
+flex-basis:50%;
+}
+
+.gallery img{
+flex-basis:25%;
+}

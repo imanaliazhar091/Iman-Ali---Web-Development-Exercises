@@ -1,0 +1,67 @@
+body{
+background:#e85a9b;
+font-family:Arial;
+margin:0;
+}
+
+main{
+width:460px;
+margin:auto;
+}
+
+.divider{
+display:block;
+margin:20px auto;
+width:300px;
+}
+
+header{
+text-align:center;
+position:relative;
+width:460px;
+margin:auto;
+}
+
+.cart{
+position:absolute;
+top:10px;
+right:20px;
+width:35px;
+height:auto;
+}
+
+.photo img{
+width:100%;
+display:block;
+}
+
+.photo p{
+background:#e6e1c7;
+color:#007a8a;
+font-weight:bold;
+padding:8px;
+margin:0;
+}
+
+button{
+margin-bottom:20px;
+font-size:11px;
+}
+
+footer{
+margin-top:10px;
+padding-left:10px;
+}
+
+footer ul{
+margin-top:10px;
+}
+
+footer a{
+font-weight:bold;
+}
+
+.copyright{
+font-size:20px;
+font-weight:bold;
+}
