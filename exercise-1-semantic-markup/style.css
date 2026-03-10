@@ -4,11 +4,13 @@ body{
     margin:0;
 }
 
+/* header styling */
 header{
     background-color:#d9d9d9;
     padding:20px;
 }
 
+/* main content */
 main{
     padding:20px;
 }
@@ -22,6 +24,7 @@ section p{
     padding:15px;
 }
 
+/* footer styling */
 footer{
     background-color:#d9d9d9;
     padding:20px;
